@@ -1,0 +1,31 @@
+Bandage:
+  # The material to use for the item.
+  Material: 'PAPER'
+  # Do not set to 0! If you do, it will work just as a normal paper item, and it will stack.
+  Data: 12
+  # Amount of bandages created when crafting
+  Amount: 1
+
+# Should reciprocal damage be given when pvp is disabled?
+reciprocalDamage: false
+
+# Modify mob spawning to spawn wacky mobs. Don't use.
+modifiedMobSpawning: false
+
+# Whether or not to enable sleep voting and what percent is needed for it to activate.
+sleepVote:
+  enabled: true
+  percent: 0.5
+
+# Kick players for killing players when pvp is disabled.
+kickForPvp: false
+
+# Enable the soulbound enchantment. (Click emerald block with enchantable item)
+soulbound: true
+
+# Enable bandage or lance items.
+# Bandage: Works like pubg bandage
+# Lance: Works as a sword with longer range that is better than an iron sword and has knockback, but can only be used on horseback.
+items:
+  bandage: false
+  lance: false
